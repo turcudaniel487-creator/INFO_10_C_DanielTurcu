@@ -1,0 +1,5 @@
+n = int(input("numarul de zile: "))
+nr_de_ore = n * 24 # 1 zi = 24 de ore
+nr_de_miute = nr_de_ore * 60 # 1 ora = 60 minute
+print(f"{nr_de_ore:.2f} ore")
+print(f"{nr_de_miute:.2f} minute")
