@@ -1,0 +1,5 @@
+nume = input("Nume: ")
+print("Salut, " +nume)
+r = input("Participi? ")
+participa = bool(r)
+print("Salut", participa == True)
