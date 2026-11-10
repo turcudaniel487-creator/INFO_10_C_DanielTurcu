@@ -1,7 +1,3 @@
-prenume = input("Prenume: ")
-clasa = input("Clasa: ")
-# Construiește eticheta
-eticheta = prenume + " - " + clasa
-# Afișează eticheta și len(...)
-print(eticheta)
-print(len(eticheta))
+varsta: int = 16
+nume: str = "Ana"
+print(f"Varsta: {varsta}, Nume: {nume}")
