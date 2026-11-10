@@ -1,3 +1,3 @@
-varsta: int = 16
-nume: str = "Ana"
-print(f"Varsta: {varsta}, Nume: {nume}")
+varsta: int = int(input("Introdu varsta: "))
+nume: str = input("Introdu nume: ")
+print(nume, varsta)
