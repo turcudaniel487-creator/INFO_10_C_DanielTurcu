@@ -1,0 +1,5 @@
+a = int(input('a= '))
+b = int(input('b= '))
+l = range(a, b+1, 2)
+x = int(input('x= '))
+print(x in l, list(l), bool(l))
