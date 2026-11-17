@@ -1,0 +1,5 @@
+a = int(input("a=  "))
+b = int(input("b=  "))
+x = int(input("x=  "))
+r: range = range(a, b+1)
+print(type(r), len(r), a <= x <= b)
